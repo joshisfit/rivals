@@ -1,0 +1,1357 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local DGNZ = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local UIGradient_2 = Instance.new("UIGradient")
+local Frame_3 = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner = Instance.new("UICorner")
+local Frame_4 = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local UIGradient_3 = Instance.new("UIGradient")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local UIGradient_4 = Instance.new("UIGradient")
+local Frame_5 = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local UIGradient_5 = Instance.new("UIGradient")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local UIGradient_6 = Instance.new("UIGradient")
+local TextButton_6 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local TextButton_7 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local TextButton_8 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local TextButton_9 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local TextButton_10 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Orbit = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+
+--Properties:
+
+DGNZ.Name = "DGNZ+"
+DGNZ.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+DGNZ.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = DGNZ
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.0151120378, 0, 0.328329027, 0)
+Frame.Size = UDim2.new(0.383624345, 0, 0.379460305, 0)
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(217, 217, 217)
+Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0.0149420984, 0, 0.0317214653, 0)
+Frame_2.Size = UDim2.new(0.96746248, 0, 0.932645202, 0)
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(232, 232, 232)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(206, 206, 206))}
+UIGradient.Parent = Frame_2
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(203, 203, 203)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(208, 208, 208))}
+UIGradient_2.Parent = Frame
+
+Frame_3.Parent = Frame
+Frame_3.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+Frame_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0.150779352, 0, 0.0317214653, 0)
+Frame_3.Size = UDim2.new(0.00511108013, 0, 0.932645202, 0)
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(149, 149, 149)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.0579131916, 0, 0.881839216, 0)
+ImageLabel.Size = UDim2.new(0.04710434, 0, 0.0825270116, 0)
+ImageLabel.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+UICorner.CornerRadius = UDim.new(1, 5)
+UICorner.Parent = ImageLabel
+
+Frame_4.Parent = Frame
+Frame_4.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+Frame_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(0.0108678304, 0, 0.870075941, 0)
+Frame_4.Size = UDim2.new(0.140948355, 0, 0.0102829067, 0)
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(214, 214, 214)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.0163004715, 0, 0.112833768, 0)
+TextButton.Size = UDim2.new(0.134478882, 0, 0.0799351484, 0)
+TextButton.Font = Enum.Font.DenkOne
+TextButton.Text = "Main"
+TextButton.TextColor3 = Color3.fromRGB(167, 167, 167)
+TextButton.TextSize = 20.000
+
+UICorner_2.Parent = TextButton
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(232, 232, 232)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(206, 206, 206))}
+UIGradient_3.Parent = TextButton
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(214, 214, 214)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.0163004715, 0, 0.315363109, 0)
+TextButton_2.Size = UDim2.new(0.134478882, 0, 0.0799351484, 0)
+TextButton_2.Font = Enum.Font.DenkOne
+TextButton_2.Text = "Teleports"
+TextButton_2.TextColor3 = Color3.fromRGB(167, 167, 167)
+TextButton_2.TextSize = 20.000
+
+UICorner_3.Parent = TextButton_2
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(232, 232, 232)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(206, 206, 206))}
+UIGradient_4.Parent = TextButton_2
+
+Frame_5.Parent = Frame
+Frame_5.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+Frame_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_5.BorderSizePixel = 0
+Frame_5.Position = UDim2.new(0.0122262239, 0, 0.0819195136, 0)
+Frame_5.Size = UDim2.new(0.970178425, 0, 0.0102829067, 0)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 5.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.0163013209, 0, 0.0317214653, 0)
+TextLabel.Size = UDim2.new(0.138553157, 0, 0.0604809523, 0)
+TextLabel.Font = Enum.Font.DenkOne
+TextLabel.Text = "DGNZ+"
+TextLabel.TextColor3 = Color3.fromRGB(148, 148, 148)
+TextLabel.TextSize = 20.000
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 5.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.387136191, 0, 0.0317214653, 0)
+TextLabel_2.Size = UDim2.new(0.271674514, 0, 0.0501980521, 0)
+TextLabel_2.Font = Enum.Font.DenkOne
+TextLabel_2.Text = "gg/3TKKF6E4"
+TextLabel_2.TextColor3 = Color3.fromRGB(145, 145, 145)
+TextLabel_2.TextSize = 20.000
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(177, 177, 177)
+TextLabel_3.BackgroundTransparency = 5.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.891610444, 0, 0.0244011264, 0)
+TextLabel_3.Size = UDim2.new(0.0904930308, 0, 0.0575183891, 0)
+TextLabel_3.Font = Enum.Font.DenkOne
+TextLabel_3.Text = "Rivals"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_3.TextSize = 20.000
+
+TextButton_3.Parent = Frame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(214, 214, 214)
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Position = UDim2.new(0.0176588427, 0, 0.410527527, 0)
+TextButton_3.Size = UDim2.new(0.134478882, 0, 0.0799351484, 0)
+TextButton_3.Font = Enum.Font.DenkOne
+TextButton_3.Text = "Rage"
+TextButton_3.TextColor3 = Color3.fromRGB(167, 167, 167)
+TextButton_3.TextSize = 20.000
+
+UICorner_4.Parent = TextButton_3
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(232, 232, 232)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(206, 206, 206))}
+UIGradient_5.Parent = TextButton_3
+
+TextButton_4.Parent = Frame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Position = UDim2.new(0.180663556, 0, 0.112833768, 0)
+TextButton_4.Size = UDim2.new(0.134478882, 0, 0.0799351484, 0)
+TextButton_4.Font = Enum.Font.DenkOne
+TextButton_4.Text = "Fly (X)"
+TextButton_4.TextColor3 = Color3.fromRGB(127, 127, 127)
+TextButton_4.TextSize = 20.000
+
+UICorner_5.Parent = TextButton_4
+
+TextButton_5.Parent = Frame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(214, 214, 214)
+TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BorderSizePixel = 0
+TextButton_5.Position = UDim2.new(0.0163004715, 0, 0.215318501, 0)
+TextButton_5.Size = UDim2.new(0.134478882, 0, 0.0799351484, 0)
+TextButton_5.Font = Enum.Font.DenkOne
+TextButton_5.Text = "Aim"
+TextButton_5.TextColor3 = Color3.fromRGB(167, 167, 167)
+TextButton_5.TextSize = 20.000
+
+UICorner_6.Parent = TextButton_5
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(232, 232, 232)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(206, 206, 206))}
+UIGradient_6.Parent = TextButton_5
+
+TextButton_6.Parent = Frame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+TextButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Position = UDim2.new(0.180663556, 0, 0.215318501, 0)
+TextButton_6.Size = UDim2.new(0.134478882, 0, 0.0799351484, 0)
+TextButton_6.Font = Enum.Font.DenkOne
+TextButton_6.Text = "CFrame (C)"
+TextButton_6.TextColor3 = Color3.fromRGB(127, 127, 127)
+TextButton_6.TextSize = 20.000
+
+UICorner_7.Parent = TextButton_6
+
+TextButton_7.Parent = Frame
+TextButton_7.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+TextButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.BorderSizePixel = 0
+TextButton_7.Position = UDim2.new(0.180663556, 0, 0.315363109, 0)
+TextButton_7.Size = UDim2.new(0.134478882, 0, 0.0799351484, 0)
+TextButton_7.Font = Enum.Font.DenkOne
+TextButton_7.Text = "Aimbot (Q)"
+TextButton_7.TextColor3 = Color3.fromRGB(127, 127, 127)
+TextButton_7.TextSize = 20.000
+
+UICorner_8.Parent = TextButton_7
+
+TextButton_8.Parent = Frame
+TextButton_8.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+TextButton_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.BorderSizePixel = 0
+TextButton_8.Position = UDim2.new(0.180663586, 0, 0.410708457, 0)
+TextButton_8.Size = UDim2.new(0.134478882, 0, 0.0799351484, 0)
+TextButton_8.Font = Enum.Font.DenkOne
+TextButton_8.Text = "Boxes"
+TextButton_8.TextColor3 = Color3.fromRGB(127, 127, 127)
+TextButton_8.TextSize = 20.000
+
+UICorner_9.Parent = TextButton_8
+
+TextButton_9.Parent = Frame
+TextButton_9.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+TextButton_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.BorderSizePixel = 0
+TextButton_9.Position = UDim2.new(0.180663586, 0, 0.51084578, 0)
+TextButton_9.Size = UDim2.new(0.134478882, 0, 0.0799351484, 0)
+TextButton_9.Font = Enum.Font.DenkOne
+TextButton_9.Text = "Names"
+TextButton_9.TextColor3 = Color3.fromRGB(127, 127, 127)
+TextButton_9.TextSize = 20.000
+
+UICorner_10.Parent = TextButton_9
+
+TextButton_10.Parent = Frame
+TextButton_10.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+TextButton_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_10.BorderSizePixel = 0
+TextButton_10.Position = UDim2.new(0.180663586, 0, 0.610983133, 0)
+TextButton_10.Size = UDim2.new(0.134478882, 0, 0.0799351484, 0)
+TextButton_10.Font = Enum.Font.DenkOne
+TextButton_10.Text = "Health"
+TextButton_10.TextColor3 = Color3.fromRGB(127, 127, 127)
+TextButton_10.TextSize = 20.000
+
+UICorner_11.Parent = TextButton_10
+
+Orbit.Name = "Orbit"
+Orbit.Parent = Frame
+Orbit.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+Orbit.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Orbit.BorderSizePixel = 0
+Orbit.Position = UDim2.new(0.180663586, 0, 0.711120486, 0)
+Orbit.Size = UDim2.new(0.134478882, 0, 0.0799351484, 0)
+Orbit.Font = Enum.Font.DenkOne
+Orbit.Text = "Orbit"
+Orbit.TextColor3 = Color3.fromRGB(127, 127, 127)
+Orbit.TextSize = 20.000
+
+UICorner_12.Parent = Orbit
+
+-- Scripts:
+
+local function TTEQ_fake_script() -- ImageLabel.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel)
+
+	local Players = game:GetService("Players")
+	local player = Players.LocalPlayer
+	local imageButton = script.Parent
+	
+	-- Get the player's userId
+	local userId = player.UserId
+	
+	-- Set the ImageButton to their avatar's headshot
+	imageButton.Image = string.format("https://www.roblox.com/headshot-thumbnail/image?userId=%d&width=420&height=420&format=png", userId)
+	
+end
+coroutine.wrap(TTEQ_fake_script)()
+local function DBPVP_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local button = script.Parent
+	local TweenService = game:GetService("TweenService")
+	
+	local originalSize = button.Size
+	local shrinkSize = UDim2.new(originalSize.X.Scale * 0.92, 0, originalSize.Y.Scale * 0.92, 0)
+	
+	local shrinkTween = TweenService:Create(button, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size = shrinkSize})
+	local growTween = TweenService:Create(button, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size = originalSize})
+	
+	button.MouseEnter:Connect(function()
+		shrinkTween:Play()
+	end)
+	
+	button.MouseLeave:Connect(function()
+		growTween:Play()
+	end)
+	
+end
+coroutine.wrap(DBPVP_fake_script)()
+local function KARNMY_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	local button = script.Parent
+	local TweenService = game:GetService("TweenService")
+	
+	local originalSize = button.Size
+	local shrinkSize = UDim2.new(originalSize.X.Scale * 0.92, 0, originalSize.Y.Scale * 0.92, 0)
+	
+	local shrinkTween = TweenService:Create(button, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size = shrinkSize})
+	local growTween = TweenService:Create(button, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size = originalSize})
+	
+	button.MouseEnter:Connect(function()
+		shrinkTween:Play()
+	end)
+	
+	button.MouseLeave:Connect(function()
+		growTween:Play()
+	end)
+	
+end
+coroutine.wrap(KARNMY_fake_script)()
+local function CVSYZI_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	-- LocalScript inside your Frame
+	local frame = script.Parent
+	local userInputService = game:GetService("UserInputService")
+	local tweenService = game:GetService("TweenService")
+	local runService = game:GetService("RunService")
+	
+	local dragging = false
+	local offset = Vector2.new()
+	local followSpeed = 0.2
+	local visible = true
+	local fadeTime = 0.3
+	
+	-- Store all UI elements + their original transparencies
+	local uiElements = {}
+	
+	local function collectUIElements()
+		for _, child in pairs(frame:GetDescendants()) do
+			if child:IsA("TextLabel") or child:IsA("TextButton") then
+				table.insert(uiElements, {
+					instance = child,
+					properties = {
+						TextTransparency = child.TextTransparency,
+						BackgroundTransparency = child.BackgroundTransparency
+					}
+				})
+			elseif child:IsA("ImageLabel") or child:IsA("ImageButton") then
+				table.insert(uiElements, {
+					instance = child,
+					properties = {
+						ImageTransparency = child.ImageTransparency,
+						BackgroundTransparency = child.BackgroundTransparency
+					}
+				})
+			elseif child:IsA("UIStroke") then
+				table.insert(uiElements, {
+					instance = child,
+					properties = {
+						Transparency = child.Transparency
+					}
+				})
+			end
+		end
+	
+		-- Save the frame's background transparency too
+		table.insert(uiElements, {
+			instance = frame,
+			properties = {
+				BackgroundTransparency = frame.BackgroundTransparency
+			}
+		})
+	end
+	
+	collectUIElements()
+	
+	-- Smooth drag logic
+	local targetPos = frame.Position
+	
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			dragging = true
+			local mousePos = userInputService:GetMouseLocation()
+			offset = Vector2.new(mousePos.X - frame.AbsolutePosition.X, mousePos.Y - frame.AbsolutePosition.Y)
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	runService.RenderStepped:Connect(function()
+		if dragging then
+			local mousePos = userInputService:GetMouseLocation()
+			local newPos = UDim2.new(0, mousePos.X - offset.X, 0, mousePos.Y - offset.Y)
+			targetPos = newPos
+		end
+	
+		local current = frame.Position
+		frame.Position = UDim2.new(
+			0,
+			current.X.Offset + (targetPos.X.Offset - current.X.Offset) * followSpeed,
+			0,
+			current.Y.Offset + (targetPos.Y.Offset - current.Y.Offset) * followSpeed
+		)
+	end)
+	
+	-- Fade toggle
+	local function fadeFrame(show)
+		if show then
+			frame.Visible = true
+		end
+	
+		for _, item in pairs(uiElements) do
+			local instance = item.instance
+			local original = item.properties
+			local goal = {}
+	
+			for prop, value in pairs(original) do
+				goal[prop] = show and value or 1
+			end
+	
+			local tween = tweenService:Create(instance, TweenInfo.new(fadeTime), goal)
+			tween:Play()
+		end
+	
+		if not show then
+			task.delay(fadeTime, function()
+				frame.Visible = false
+			end)
+		end
+	end
+	
+	-- Keybind to toggle with M
+	userInputService.InputBegan:Connect(function(input, processed)
+		if processed then return end
+		if input.KeyCode == Enum.KeyCode.M then
+			visible = not visible
+			fadeFrame(visible)
+		end
+	end)
+	
+end
+coroutine.wrap(CVSYZI_fake_script)()
+local function MYVD_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	local button = script.Parent
+	local TweenService = game:GetService("TweenService")
+	
+	local originalSize = button.Size
+	local shrinkSize = UDim2.new(originalSize.X.Scale * 0.92, 0, originalSize.Y.Scale * 0.92, 0)
+	
+	local shrinkTween = TweenService:Create(button, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size = shrinkSize})
+	local growTween = TweenService:Create(button, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size = originalSize})
+	
+	button.MouseEnter:Connect(function()
+		shrinkTween:Play()
+	end)
+	
+	button.MouseLeave:Connect(function()
+		growTween:Play()
+	end)
+	
+end
+coroutine.wrap(MYVD_fake_script)()
+local function GJOIBZL_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	local button = script.Parent
+	local TweenService = game:GetService("TweenService")
+	
+	local originalSize = button.Size
+	local shrinkSize = UDim2.new(originalSize.X.Scale * 0.92, 0, originalSize.Y.Scale * 0.92, 0)
+	
+	local shrinkTween = TweenService:Create(button, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size = shrinkSize})
+	local growTween = TweenService:Create(button, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size = originalSize})
+	
+	button.MouseEnter:Connect(function()
+		shrinkTween:Play()
+	end)
+	
+	button.MouseLeave:Connect(function()
+		growTween:Play()
+	end)
+	
+end
+coroutine.wrap(GJOIBZL_fake_script)()
+local function FGIXJH_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	-- Local Fly Script
+	-- Place this script directly inside an existing ImageButton
+	local Players = game:GetService("Players")
+	local UserInputService = game:GetService("UserInputService")
+	local RunService = game:GetService("RunService")
+	local player = Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoid = character:WaitForChild("Humanoid")
+	local rootPart = character:WaitForChild("HumanoidRootPart")
+	-- Reference to the button this script is in
+	local flyButton = script.Parent
+	-- Fly variables
+	local flying = false
+	local flySpeed = 100
+	local bodyVelocity = nil
+	local bodyGyro = nil
+	-- Function to toggle fly mode
+	local function toggleFly()
+		flying = not flying
+		if flying then
+			-- Enable fly
+			humanoid.PlatformStand = true
+			bodyVelocity = Instance.new("BodyVelocity")
+			bodyVelocity.MaxForce = Vector3.new(math.huge, math.huge, math.huge)
+			bodyVelocity.Velocity = Vector3.new()
+			bodyVelocity.Parent = rootPart
+			bodyGyro = Instance.new("BodyGyro")
+			bodyGyro.MaxTorque = Vector3.new(math.huge, math.huge, math.huge)
+			bodyGyro.D = 50
+			bodyGyro.P = 5000
+			bodyGyro.CFrame = rootPart.CFrame
+			bodyGyro.Parent = rootPart
+		else
+			-- Disable fly
+			humanoid.PlatformStand = false
+			if bodyVelocity then
+				bodyVelocity:Destroy()
+				bodyVelocity = nil
+			end
+			if bodyGyro then
+				bodyGyro:Destroy()
+				bodyGyro = nil
+			end
+			-- Removed the button color reset line
+		end
+	end
+	-- Connect button click
+	flyButton.MouseButton1Click:Connect(toggleFly)
+	-- Connect X key press
+	UserInputService.InputBegan:Connect(function(input, gameProcessed)
+		if not gameProcessed and input.KeyCode == Enum.KeyCode.X then
+			toggleFly()
+		end
+	end)
+	-- Handle movement while flying
+	RunService.RenderStepped:Connect(function()
+		if flying and character and humanoid and rootPart and bodyVelocity and bodyGyro then
+			local camera = workspace.CurrentCamera
+			local lookVector = camera.CFrame.LookVector
+			local rightVector = camera.CFrame.RightVector
+			-- Update gyro to face camera direction
+			bodyGyro.CFrame = CFrame.new(rootPart.Position, rootPart.Position + lookVector)
+			-- Reset velocity
+			bodyVelocity.Velocity = Vector3.new()
+			-- Apply movement based on WASD keys
+			local moveDirection = Vector3.new()
+			if UserInputService:IsKeyDown(Enum.KeyCode.W) then
+				moveDirection = moveDirection + lookVector
+			end
+			if UserInputService:IsKeyDown(Enum.KeyCode.S) then
+				moveDirection = moveDirection - lookVector
+			end
+			if UserInputService:IsKeyDown(Enum.KeyCode.A) then
+				moveDirection = moveDirection - rightVector
+			end
+			if UserInputService:IsKeyDown(Enum.KeyCode.D) then
+				moveDirection = moveDirection + rightVector
+			end
+			if UserInputService:IsKeyDown(Enum.KeyCode.Space) then
+				moveDirection = moveDirection + Vector3.new(0, 1, 0)
+			end
+			if UserInputService:IsKeyDown(Enum.KeyCode.LeftControl) then
+				moveDirection = moveDirection - Vector3.new(0, 1, 0)
+			end
+			-- Normalize and apply speed
+			if moveDirection.Magnitude > 0 then
+				bodyVelocity.Velocity = moveDirection.Unit * flySpeed
+			end
+		end
+	end)
+	-- Handle character respawning
+	player.CharacterAdded:Connect(function(newCharacter)
+		character = newCharacter
+		humanoid = character:WaitForChild("Humanoid")
+		rootPart = character:WaitForChild("HumanoidRootPart")
+		-- Reset flying state when respawning
+		if flying then
+			toggleFly()
+		end
+	end)
+end
+coroutine.wrap(FGIXJH_fake_script)()
+local function JRMWHT_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	local button = script.Parent
+	local TweenService = game:GetService("TweenService")
+	
+	local originalSize = button.Size
+	local shrinkSize = UDim2.new(originalSize.X.Scale * 0.92, 0, originalSize.Y.Scale * 0.92, 0)
+	
+	local shrinkTween = TweenService:Create(button, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size = shrinkSize})
+	local growTween = TweenService:Create(button, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size = originalSize})
+	
+	button.MouseEnter:Connect(function()
+		shrinkTween:Play()
+	end)
+	
+	button.MouseLeave:Connect(function()
+		growTween:Play()
+	end)
+	
+end
+coroutine.wrap(JRMWHT_fake_script)()
+local function NJSZIVU_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	local button = script.Parent
+	local TweenService = game:GetService("TweenService")
+	
+	local originalSize = button.Size
+	local shrinkSize = UDim2.new(originalSize.X.Scale * 0.92, 0, originalSize.Y.Scale * 0.92, 0)
+	
+	local shrinkTween = TweenService:Create(button, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size = shrinkSize})
+	local growTween = TweenService:Create(button, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size = originalSize})
+	
+	button.MouseEnter:Connect(function()
+		shrinkTween:Play()
+	end)
+	
+	button.MouseLeave:Connect(function()
+		growTween:Play()
+	end)
+	
+end
+coroutine.wrap(NJSZIVU_fake_script)()
+local function BUSS_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	-- CFrame Speed Script
+	-- Place this script directly inside an existing ImageButton
+	local Players = game:GetService("Players")
+	local UserInputService = game:GetService("UserInputService")
+	local RunService = game:GetService("RunService")
+	local player = Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoid = character:WaitForChild("Humanoid")
+	local rootPart = character:WaitForChild("HumanoidRootPart")
+	
+	-- Reference to the button this script is in
+	local speedButton = script.Parent
+	
+	-- Speed variables
+	local usingCFrameSpeed = false
+	local speedMultiplier = 2  -- Adjust this value to change the speed
+	
+	-- Function to toggle CFrame speed
+	local function toggleCFrameSpeed()
+		usingCFrameSpeed = not usingCFrameSpeed
+	end
+	
+	-- Connect button click
+	speedButton.MouseButton1Click:Connect(toggleCFrameSpeed)
+	
+	-- Connect C key press
+	UserInputService.InputBegan:Connect(function(input, gameProcessed)
+		if not gameProcessed and input.KeyCode == Enum.KeyCode.C then
+			toggleCFrameSpeed()
+		end
+	end)
+	
+	-- Handle CFrame speed movement
+	RunService.RenderStepped:Connect(function(delta)
+		if usingCFrameSpeed and character and humanoid and rootPart and humanoid.Health > 0 then
+			local camera = workspace.CurrentCamera
+			local lookVector = camera.CFrame.LookVector
+			local rightVector = camera.CFrame.RightVector
+	
+			-- Get the normalized direction
+			local moveDirection = Vector3.new()
+	
+			-- WASD Controls
+			if UserInputService:IsKeyDown(Enum.KeyCode.W) then
+				moveDirection = moveDirection + lookVector
+			end
+			if UserInputService:IsKeyDown(Enum.KeyCode.S) then
+				moveDirection = moveDirection - lookVector
+			end
+			if UserInputService:IsKeyDown(Enum.KeyCode.A) then
+				moveDirection = moveDirection - rightVector
+			end
+			if UserInputService:IsKeyDown(Enum.KeyCode.D) then
+				moveDirection = moveDirection + rightVector
+			end
+	
+			-- Remove Y component to keep movement horizontal
+			moveDirection = Vector3.new(moveDirection.X, 0, moveDirection.Z)
+	
+			-- Apply speed if we're moving
+			if moveDirection.Magnitude > 0.1 then
+				-- Normalize the direction and apply the speed multiplier
+				moveDirection = moveDirection.Unit
+	
+				-- CFrame manipulation for speed
+				rootPart.CFrame = rootPart.CFrame + (moveDirection * speedMultiplier)
+			end
+		end
+	end)
+	
+	-- Handle character respawning
+	player.CharacterAdded:Connect(function(newCharacter)
+		character = newCharacter
+		humanoid = character:WaitForChild("Humanoid")
+		rootPart = character:WaitForChild("HumanoidRootPart")
+	
+		-- Reset CFrame speed state when respawning
+		usingCFrameSpeed = false
+	end)
+end
+coroutine.wrap(BUSS_fake_script)()
+local function RGNXEBC_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	local button = script.Parent
+	local TweenService = game:GetService("TweenService")
+	
+	local originalSize = button.Size
+	local shrinkSize = UDim2.new(originalSize.X.Scale * 0.92, 0, originalSize.Y.Scale * 0.92, 0)
+	
+	local shrinkTween = TweenService:Create(button, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size = shrinkSize})
+	local growTween = TweenService:Create(button, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size = originalSize})
+	
+	button.MouseEnter:Connect(function()
+		shrinkTween:Play()
+	end)
+	
+	button.MouseLeave:Connect(function()
+		growTween:Play()
+	end)
+	
+end
+coroutine.wrap(RGNXEBC_fake_script)()
+local function XHVUK_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	-- Extremely Basic Aimbot for Baseplate
+	-- This must be inserted as a LocalScript in StarterPlayerScripts
+	
+	local Players = game:GetService("Players")
+	local RunService = game:GetService("RunService")
+	local UserInputService = game:GetService("UserInputService")
+	
+	-- Print immediately to confirm script is running
+	print("AIMBOT SCRIPT STARTING")
+	
+	-- Variables
+	local player = Players.LocalPlayer
+	local camera = workspace.CurrentCamera
+	local enabled = false
+	
+	-- Toggle function
+	local function toggle()
+		enabled = not enabled
+		print("Aimbot: " .. (enabled and "ENABLED" or "DISABLED"))
+	end
+	
+	-- Connect Q key to toggle
+	UserInputService.InputBegan:Connect(function(input)
+		if input.KeyCode == Enum.KeyCode.Q then
+			toggle()
+		end
+	end)
+	
+	-- Create a part to verify script is working
+	local function createIndicator()
+		local part = Instance.new("Part")
+		part.Anchored = true
+		part.CanCollide = false
+		part.Size = Vector3.new(1, 1, 1)
+		part.Color = Color3.new(1, 0, 0)
+		part.Position = workspace.CurrentCamera.CFrame.Position + Vector3.new(0, 5, 0)
+		part.Parent = workspace
+	
+		-- Destroy after 5 seconds
+		task.delay(5, function()
+			part:Destroy()
+		end)
+	end
+	
+	-- Try to create indicator to verify script is running
+	pcall(createIndicator)
+	
+	-- Main aimbot loop
+	RunService.RenderStepped:Connect(function()
+		if not enabled then return end
+	
+		-- Find closest player
+		local closest = nil
+		local closestDistance = math.huge
+	
+		for _, otherPlayer in pairs(Players:GetPlayers()) do
+			if otherPlayer ~= player then
+				local character = otherPlayer.Character
+				if character and character:FindFirstChild("Head") then
+					local distance = (character.Head.Position - camera.CFrame.Position).Magnitude
+					if distance < closestDistance then
+						closestDistance = distance
+						closest = character.Head
+					end
+				end
+			end
+		end
+	
+		-- Aim at closest player
+		if closest then
+			-- Direct camera manipulation
+			workspace.CurrentCamera.CFrame = CFrame.new(camera.CFrame.Position, closest.Position)
+		end
+	end)
+	
+	-- Print to confirm full script loaded
+	print("AIMBOT SCRIPT LOADED - PRESS Q TO TOGGLE")
+end
+coroutine.wrap(XHVUK_fake_script)()
+local function DVEYC_fake_script() -- TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_8)
+
+	local button = script.Parent
+	local TweenService = game:GetService("TweenService")
+	
+	local originalSize = button.Size
+	local shrinkSize = UDim2.new(originalSize.X.Scale * 0.92, 0, originalSize.Y.Scale * 0.92, 0)
+	
+	local shrinkTween = TweenService:Create(button, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size = shrinkSize})
+	local growTween = TweenService:Create(button, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size = originalSize})
+	
+	button.MouseEnter:Connect(function()
+		shrinkTween:Play()
+	end)
+	
+	button.MouseLeave:Connect(function()
+		growTween:Play()
+	end)
+	
+end
+coroutine.wrap(DVEYC_fake_script)()
+local function BKUKR_fake_script() -- TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_8)
+
+	local button = script.Parent
+	local players = game:GetService("Players")
+	local localPlayer = players.LocalPlayer
+	local runService = game:GetService("RunService")
+	
+	local enabled = false
+	local boxes = {}
+	
+	local function createBox(player)
+		if player == localPlayer then return end
+		if boxes[player] then return end
+	
+		local char = player.Character or player.CharacterAdded:Wait()
+		local hrp = char:WaitForChild("HumanoidRootPart")
+	
+		local gui = Instance.new("BillboardGui")
+		gui.Name = "BoxESP"
+		gui.Adornee = hrp
+		gui.Size = UDim2.new(4, 0, 6, 0) -- Wider and taller (X and Y)
+		gui.AlwaysOnTop = true
+		gui.ExtentsOffset = Vector3.new(0, 3, 0) -- Hover above
+	
+		local box = Instance.new("Frame")
+		box.AnchorPoint = Vector2.new(0.5, 0.5)
+		box.Position = UDim2.new(0.5, 0, 0.5, 0)
+		box.Size = UDim2.new(1, 0, 1, 0)
+		box.BackgroundTransparency = 1
+		box.BorderSizePixel = 2
+		box.BorderColor3 = Color3.new(0, 0, 0)
+		box.Parent = gui
+	
+		gui.Parent = workspace.CurrentCamera
+		boxes[player] = gui
+	end
+	
+	local function removeBox(player)
+		if boxes[player] then
+			boxes[player]:Destroy()
+			boxes[player] = nil
+		end
+	end
+	
+	for _, p in pairs(players:GetPlayers()) do createBox(p) end
+	players.PlayerAdded:Connect(createBox)
+	players.PlayerRemoving:Connect(removeBox)
+	
+	button.MouseButton1Click:Connect(function()
+		enabled = not enabled
+		for _, box in pairs(boxes) do
+			box.Enabled = enabled
+		end
+	end)
+	
+end
+coroutine.wrap(BKUKR_fake_script)()
+local function LJIN_fake_script() -- TextButton_9.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_9)
+
+	local button = script.Parent
+	local TweenService = game:GetService("TweenService")
+	
+	local originalSize = button.Size
+	local shrinkSize = UDim2.new(originalSize.X.Scale * 0.92, 0, originalSize.Y.Scale * 0.92, 0)
+	
+	local shrinkTween = TweenService:Create(button, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size = shrinkSize})
+	local growTween = TweenService:Create(button, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size = originalSize})
+	
+	button.MouseEnter:Connect(function()
+		shrinkTween:Play()
+	end)
+	
+	button.MouseLeave:Connect(function()
+		growTween:Play()
+	end)
+	
+end
+coroutine.wrap(LJIN_fake_script)()
+local function YBZXIWA_fake_script() -- TextButton_9.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_9)
+
+	local button = script.Parent
+	local players = game:GetService("Players")
+	local localPlayer = players.LocalPlayer
+	
+	local enabled = false
+	local names = {}
+	
+	local function createName(player)
+		if player == localPlayer then return end
+		if names[player] then return end
+	
+		local char = player.Character or player.CharacterAdded:Wait()
+		local hrp = char:WaitForChild("HumanoidRootPart")
+	
+		local gui = Instance.new("BillboardGui")
+		gui.Name = "NameESP"
+		gui.Adornee = hrp
+		gui.Size = UDim2.new(0, 100, 0, 20)
+		gui.AlwaysOnTop = true
+		gui.ExtentsOffset = Vector3.new(0, 5, 0)
+	
+		local label = Instance.new("TextLabel")
+		label.Size = UDim2.new(1, 0, 1, 0)
+		label.Text = player.DisplayName
+		label.TextColor3 = Color3.new(1, 1, 1)
+		label.TextStrokeColor3 = Color3.new(0, 0, 0)
+		label.TextStrokeTransparency = 0
+		label.Font = Enum.Font.Arcade or Enum.Font.Legacy
+		label.TextSize = 14
+		label.BackgroundTransparency = 1
+		label.Parent = gui
+	
+		gui.Parent = workspace.CurrentCamera
+		names[player] = gui
+	end
+	
+	local function removeName(player)
+		if names[player] then
+			names[player]:Destroy()
+			names[player] = nil
+		end
+	end
+	
+	for _, p in pairs(players:GetPlayers()) do createName(p) end
+	players.PlayerAdded:Connect(createName)
+	players.PlayerRemoving:Connect(removeName)
+	
+	button.MouseButton1Click:Connect(function()
+		enabled = not enabled
+		for _, gui in pairs(names) do
+			gui.Enabled = enabled
+		end
+	end)
+	
+end
+coroutine.wrap(YBZXIWA_fake_script)()
+local function LVVZIV_fake_script() -- TextButton_10.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_10)
+
+	local button = script.Parent
+	local TweenService = game:GetService("TweenService")
+	
+	local originalSize = button.Size
+	local shrinkSize = UDim2.new(originalSize.X.Scale * 0.92, 0, originalSize.Y.Scale * 0.92, 0)
+	
+	local shrinkTween = TweenService:Create(button, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size = shrinkSize})
+	local growTween = TweenService:Create(button, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size = originalSize})
+	
+	button.MouseEnter:Connect(function()
+		shrinkTween:Play()
+	end)
+	
+	button.MouseLeave:Connect(function()
+		growTween:Play()
+	end)
+	
+end
+coroutine.wrap(LVVZIV_fake_script)()
+local function GSAXKG_fake_script() -- TextButton_10.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_10)
+
+	local button = script.Parent
+	local players = game:GetService("Players")
+	local localPlayer = players.LocalPlayer
+	local runService = game:GetService("RunService")
+	
+	local enabled = false
+	local bars = {}
+	
+	local function createBar(player)
+		if player == localPlayer then return end
+		if bars[player] then return end
+	
+		local char = player.Character or player.CharacterAdded:Wait()
+		local hrp = char:WaitForChild("HumanoidRootPart")
+		local hum = char:WaitForChild("Humanoid")
+	
+		local gui = Instance.new("BillboardGui")
+		gui.Name = "HealthESP"
+		gui.Adornee = hrp
+		gui.Size = UDim2.new(0, 6, 0, 120) -- Thin bar, tall height
+		gui.AlwaysOnTop = true
+		gui.ExtentsOffset = Vector3.new(-2.5, 3, 0) -- Offset left side of body
+	
+		local bg = Instance.new("Frame")
+		bg.Size = UDim2.new(1, 0, 1, 0)
+		bg.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+		bg.BorderSizePixel = 0
+		bg.Parent = gui
+	
+		local fill = Instance.new("Frame")
+		fill.AnchorPoint = Vector2.new(0, 1)
+		fill.Position = UDim2.new(0, 0, 1, 0)
+		fill.Size = UDim2.new(1, 0, 1, 0)
+		fill.BackgroundColor3 = Color3.new(1, 1, 1)
+		fill.BorderSizePixel = 0
+		fill.Parent = bg
+	
+		local hpText = Instance.new("TextLabel")
+		hpText.Position = UDim2.new(0, 0, 0, -12)
+		hpText.Size = UDim2.new(1, 0, 0, 10)
+		hpText.Font = Enum.Font.Arcade or Enum.Font.Legacy
+		hpText.TextColor3 = Color3.new(1, 1, 1)
+		hpText.TextStrokeColor3 = Color3.new(0, 0, 0)
+		hpText.TextStrokeTransparency = 0
+		hpText.TextSize = 10
+		hpText.BackgroundTransparency = 1
+		hpText.Text = "100"
+		hpText.Parent = bg
+	
+		gui.Parent = workspace.CurrentCamera
+	
+		bars[player] = {
+			gui = gui,
+			humanoid = hum,
+			fill = fill,
+			text = hpText
+		}
+	end
+	
+	local function removeBar(player)
+		if bars[player] then
+			bars[player].gui:Destroy()
+			bars[player] = nil
+		end
+	end
+	
+	players.PlayerAdded:Connect(createBar)
+	players.PlayerRemoving:Connect(removeBar)
+	for _, p in pairs(players:GetPlayers()) do createBar(p) end
+	
+	runService.RenderStepped:Connect(function()
+		if not enabled then
+			for _, data in pairs(bars) do
+				data.gui.Enabled = false
+			end
+			return
+		end
+	
+		for _, data in pairs(bars) do
+			local hum = data.humanoid
+			if hum and hum.Health > 0 then
+				local hpPerc = math.clamp(hum.Health / hum.MaxHealth, 0, 1)
+				data.fill.Size = UDim2.new(1, 0, hpPerc, 0)
+				data.text.Text = tostring(math.floor(hum.Health))
+				data.gui.Enabled = true
+			else
+				data.gui.Enabled = false
+			end
+		end
+	end)
+	
+	button.MouseButton1Click:Connect(function()
+		enabled = not enabled
+	end)
+	
+end
+coroutine.wrap(GSAXKG_fake_script)()
+local function OOQOWWP_fake_script() -- Orbit.LocalScript 
+	local script = Instance.new('LocalScript', Orbit)
+
+	local button = script.Parent
+	local TweenService = game:GetService("TweenService")
+	
+	local originalSize = button.Size
+	local shrinkSize = UDim2.new(originalSize.X.Scale * 0.92, 0, originalSize.Y.Scale * 0.92, 0)
+	
+	local shrinkTween = TweenService:Create(button, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size = shrinkSize})
+	local growTween = TweenService:Create(button, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size = originalSize})
+	
+	button.MouseEnter:Connect(function()
+		shrinkTween:Play()
+	end)
+	
+	button.MouseLeave:Connect(function()
+		growTween:Play()
+	end)
+	
+end
+coroutine.wrap(OOQOWWP_fake_script)()
+local function FOHCLAP_fake_script() -- DGNZ.LocalScript 
+	local script = Instance.new('LocalScript', DGNZ)
+
+	-- Player Orbit Script
+	-- Press B to toggle orbiting around your target
+	
+	local Players = game:GetService("Players")
+	local RunService = game:GetService("RunService")
+	local UserInputService = game:GetService("UserInputService")
+	local TweenService = game:GetService("TweenService")
+	local LocalPlayer = Players.LocalPlayer
+	local Mouse = LocalPlayer:GetMouse()
+	local Camera = workspace.CurrentCamera
+	
+	-- Configuration
+	local Settings = {
+		OrbitKey = Enum.KeyCode.B,
+		OrbitSpeed = 5,
+		OrbitRadius = 10,
+		OrbitHeight = 0,
+		MaxDistance = 500,
+		CheckRate = 0.1
+	}
+	
+	-- Variables
+	local Target = nil
+	local IsOrbiting = false
+	local Connection = nil
+	local OrbitAngle = 0
+	
+	-- UI Components (Inside DGNZ+ ScreenGui)
+	local ScreenGui = game.Players.LocalPlayer.PlayerGui:WaitForChild("DGNZ+")
+	
+	-- Reference to the Orbit button
+	local OrbitButton = ScreenGui:WaitForChild("Frame"):WaitForChild("Orbit")
+	
+	-- Target Frame
+	local TargetFrame = Instance.new("Frame")
+	TargetFrame.Name = "TargetFrame"
+	TargetFrame.Size = UDim2.new(0, 200, 0, 70)
+	TargetFrame.Position = UDim2.new(0, 10, 0, 10)
+	TargetFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+	TargetFrame.BackgroundTransparency = 0.3
+	TargetFrame.BorderSizePixel = 0
+	TargetFrame.Visible = false
+	TargetFrame.Parent = ScreenGui
+	
+	-- Target Avatar
+	local TargetAvatar = Instance.new("ImageLabel")
+	TargetAvatar.Name = "TargetAvatar"
+	TargetAvatar.Size = UDim2.new(0, 60, 0, 60)
+	TargetAvatar.Position = UDim2.new(0, 5, 0, 5)
+	TargetAvatar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TargetAvatar.BackgroundTransparency = 1
+	TargetAvatar.BorderSizePixel = 0
+	TargetAvatar.Parent = TargetFrame
+	
+	-- Target Label
+	local TargetLabel = Instance.new("TextLabel")
+	TargetLabel.Name = "TargetLabel"
+	TargetLabel.Size = UDim2.new(0, 120, 0, 30)
+	TargetLabel.Position = UDim2.new(0, 70, 0, 5)
+	TargetLabel.BackgroundTransparency = 1
+	TargetLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TargetLabel.TextSize = 18
+	TargetLabel.Font = Enum.Font.SourceSansBold
+	TargetLabel.Text = "Target Found!"
+	TargetLabel.TextXAlignment = Enum.TextXAlignment.Left
+	TargetLabel.Parent = TargetFrame
+	
+	-- Target Name
+	local TargetName = Instance.new("TextLabel")
+	TargetName.Name = "TargetName"
+	TargetName.Size = UDim2.new(0, 120, 0, 20)
+	TargetName.Position = UDim2.new(0, 70, 0, 35)
+	TargetName.BackgroundTransparency = 1
+	TargetName.TextColor3 = Color3.fromRGB(200, 200, 200)
+	TargetName.TextSize = 14
+	TargetName.Font = Enum.Font.SourceSans
+	TargetName.Text = ""
+	TargetName.TextXAlignment = Enum.TextXAlignment.Left
+	TargetName.Parent = TargetFrame
+	
+	-- Functions
+	local function GetClosestPlayerToMouse()
+		local MaxDist = Settings.MaxDistance
+		local Closest = nil
+	
+		for _, Player in pairs(Players:GetPlayers()) do
+			if Player ~= LocalPlayer then
+				local Character = Player.Character
+				if Character and Character:FindFirstChild("HumanoidRootPart") and Character:FindFirstChild("Humanoid") and Character.Humanoid.Health > 0 then
+					local HRP = Character.HumanoidRootPart
+					local ScreenPoint = Camera:WorldToScreenPoint(HRP.Position)
+					local DistFromMouse = (Vector2.new(ScreenPoint.X, ScreenPoint.Y) - Vector2.new(Mouse.X, Mouse.Y)).Magnitude
+	
+					if ScreenPoint.Z > 0 and DistFromMouse < MaxDist then
+						MaxDist = DistFromMouse
+						Closest = Player
+					end
+				end
+			end
+		end
+	
+		return Closest
+	end
+	
+	local function UpdateTargetUI(Player)
+		if Player then
+			local AvatarUrl = "https://www.roblox.com/headshot-thumbnail/image?userId=" .. Player.UserId .. "&width=420&height=420&format=png"
+			TargetAvatar.Image = AvatarUrl
+			TargetName.Text = Player.Name
+			TargetFrame.Visible = true
+	
+			-- Animate target frame appearance
+			TargetFrame.Position = UDim2.new(0, -200, 0, 10)
+			TweenService:Create(TargetFrame, TweenInfo.new(0.5, Enum.EasingStyle.Back), {Position = UDim2.new(0, 10, 0, 10)}):Play()
+		else
+			TargetFrame.Visible = false
+		end
+	end
+	
+	local function StartOrbiting()
+		if Connection then
+			Connection:Disconnect()
+			Connection = nil
+		end
+	
+		IsOrbiting = true
+		print("Started Orbiting")  -- Debugging
+	
+		Connection = RunService.RenderStepped:Connect(function(dt)
+			if not Target or not Target.Character or not Target.Character:FindFirstChild("HumanoidRootPart") then
+				print("Target is invalid, finding new target")  -- Debugging
+				Target = GetClosestPlayerToMouse()
+				if Target then
+					UpdateTargetUI(Target)
+				else
+					IsOrbiting = false
+					Connection:Disconnect()
+					Connection = nil
+					UpdateTargetUI(nil)
+					return
+				end
+			end
+	
+			local HRP = Target.Character.HumanoidRootPart
+			OrbitAngle = OrbitAngle + dt * Settings.OrbitSpeed
+	
+			local X = HRP.Position.X + math.cos(OrbitAngle) * Settings.OrbitRadius
+			local Z = HRP.Position.Z + math.sin(OrbitAngle) * Settings.OrbitRadius
+			local Y = HRP.Position.Y + Settings.OrbitHeight
+	
+			LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(X, Y, Z, 0, 0, 0, 0, 0, 0)
+			LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.lookAt(LocalPlayer.Character.HumanoidRootPart.Position, HRP.Position)
+		end)
+	end
+	
+	local function StopOrbiting()
+		IsOrbiting = false
+		if Connection then
+			Connection:Disconnect()
+			Connection = nil
+		end
+		UpdateTargetUI(nil)
+	end
+	
+	-- Button click handler
+	OrbitButton.MouseButton1Click:Connect(function()
+		print("Button Clicked!")  -- For debugging
+		if not IsOrbiting then
+			Target = GetClosestPlayerToMouse()
+			if Target then
+				UpdateTargetUI(Target)
+				StartOrbiting()
+			else
+				print("No target found")  -- Debugging
+			end
+		else
+			StopOrbiting()
+		end
+	end)
+	
+	-- Script loaded confirmation
+	print("Player Orbit Script loaded. Click the Orbit button to activate.")
+	
+end
+coroutine.wrap(FOHCLAP_fake_script)()
